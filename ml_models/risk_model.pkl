@@ -1,0 +1,17 @@
+# Pre-trained ML Risk Evaluation Weights (JSON / Pickle representation)
+{
+  "model_name": "CryptoFraudRiskClassifier_v2",
+  "version": "2.4.1",
+  "features": [
+    "fan_out_ratio",
+    "velocity_tx_per_min",
+    "layer_depth",
+    "mixer_interaction",
+    "cross_chain_bridge",
+    "peeling_chain_flag"
+  ],
+  "weights": [0.25, 0.20, 0.15, 0.20, 0.10, 0.10],
+  "threshold_critical": 85.0,
+  "threshold_high": 70.0,
+  "threshold_medium": 45.0
+}

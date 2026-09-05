@@ -1,0 +1,29 @@
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python / FastAPI
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/.env
+
+# Data & Generated Reports
+reports/generated/*
+!reports/generated/.gitkeep
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
